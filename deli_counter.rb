@@ -19,4 +19,5 @@ end
 
 def now_serving(line, take_a_number)
   puts "Currently serving #{line}."
+  puts "The line is currently emtpy."
 end
