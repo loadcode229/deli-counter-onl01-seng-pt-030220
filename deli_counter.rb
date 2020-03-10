@@ -1,1 +1,33 @@
-# Write your code here.
+def line(katz_deli)
+  if katz_deli.size >= 1
+    new_katz_deli = []
+    counter = 1
+    katz_deli.each do |name|
+      new_katz_deli << " #{counter}. #{name}"
+      counter += 1
+  end
+  puts "The line is currently:#{new_katz_deli.join("")}"
+else
+  puts "The line is currently empty."
+  end
+end
+
+def take_a_number(line, new_person)
+  line << new_person
+  puts "Welcome, #{new_person}. You are number #{line.size} in line."
+end
+
+def now_serving(line)
+  if line.size == 0
+    puts "There is nobody waiting to be served!"
+  else
+    puts "Currently serving #{line[0]}."
+    line.shift
+  end
+end
+
+
+
+
+
+
