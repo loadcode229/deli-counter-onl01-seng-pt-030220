@@ -22,4 +22,5 @@ def now_serving(line, take_a_number)
     puts "Currently serving #{take_a_number}."
   else
     puts "The line is currently empty."
+  end
 end
