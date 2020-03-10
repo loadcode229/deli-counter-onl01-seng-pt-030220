@@ -18,6 +18,6 @@ def take_a_number(line, new_person)
 end
 
 def now_serving(line, take_a_number)
-  puts "Currently serving #{line}."
-  puts "The line is currently emtpy."
+  if take_a_number > 0
+    puts "The line is currently"
 end
