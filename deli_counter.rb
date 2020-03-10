@@ -17,8 +17,8 @@ def take_a_number(line, new_person)
   puts "Welcome, #{new_person}. You are number #{line.size} in line."
 end
 
-def now_serving(line)
-  if take_a_number > 0
+def now_serving(line, take_a_number)
+  if line > 0
     puts "Currently serving #{take_a_number}."
   else
     puts "The line is currently empty."
