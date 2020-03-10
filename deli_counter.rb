@@ -19,5 +19,7 @@ end
 
 def now_serving(line, take_a_number)
   if take_a_number > 0
-    puts "The line is currently"
+    puts "The line is currentl"
+  else
+    puts "The line is currently empty."
 end
